@@ -20,6 +20,13 @@ DATA_SELECTED_DIR = DATA_DIR / "selected"
 DATA_REFERENCE_DIR = DATA_DIR / "reference"
 DATA_PROCESSED_DIR = DATA_DIR / "processed"
 
+# THU-MVS Dog_RGB Specific Paths
+DOG_RGB_RAW_DIR = DATA_INPUT_DIR / "Data" / "dog_rgb"
+DOG_RGB_MASKS_DIR = DATA_PROCESSED_DIR / "dog_rgb" / "masks"
+DOG_RGB_OVERLAYS_DIR = DATA_PROCESSED_DIR / "dog_rgb" / "overlays"
+DOG_RGB_ORIENTED_IMAGES_DIR = DATA_PROCESSED_DIR / "dog_rgb" / "oriented_images"
+DOG_RGB_ORIENTED_MASKS_DIR = DATA_PROCESSED_DIR / "dog_rgb" / "oriented_masks"
+
 # Source & Package Directories
 CONFIG_DIR = PROJECT_ROOT / "config"
 MODULES_DIR = PROJECT_ROOT / "modules"
@@ -60,6 +67,20 @@ DEFAULT_POINTCLOUD_FILTER_CONFIG: Dict[str, Any] = {
     "voxel_size": 0.02,
     "nb_neighbors": 20,
     "std_ratio": 2.0,
+}
+
+# -----------------------------------------------------------------------------
+# Nominal Camera Calibration Prior (Panasonic DMC-GF6, f=34mm, 1704x2272)
+# Explicitly labeled as an uncalibrated prior until refined via SfM / BA.
+# -----------------------------------------------------------------------------
+NOMINAL_CAMERA_PRIOR: Dict[str, Any] = {
+    "camera_model": "Panasonic DMC-GF6",
+    "sensor_standard": "Micro Four Thirds (17.3 mm x 13.0 mm)",
+    "nominal_focal_length_px": 4460.91,
+    "principal_point_px": (852.0, 1136.0),
+    "image_resolution": (1704, 2272),  # (width, height)
+    "distortion_coefficients": [0.0, 0.0, 0.0, 0.0, 0.0],
+    "is_experimentally_calibrated": False,
 }
 
 # -----------------------------------------------------------------------------
