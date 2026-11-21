@@ -1,0 +1,11 @@
+
+numpy
+opencv-contrib-python
+open3d
+streamlit
+plotly
+pandas
+Pillow
+scipy
+scikit-image
+tqdm

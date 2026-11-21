@@ -1,0 +1,84 @@
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Testing, Coverage & Profiling
+# ==============================================================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==============================================================================
+# Jupyter / Notebook Checkpoints
+# ==============================================================================
+.ipynb_checkpoints/
+
+# ==============================================================================
+# IDEs & Operating System Artifacts
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ==============================================================================
+# Project Datasets & Generated Outputs
+# Ignore content inside data/ and outputs/ while retaining folder structure
+# ==============================================================================
+data/input/*
+!data/input/.gitkeep
+
+data/selected/*
+!data/selected/.gitkeep
+
+data/reference/*
+!data/reference/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+outputs/pointclouds/*
+!outputs/pointclouds/.gitkeep
+
+outputs/meshes/*
+!outputs/meshes/.gitkeep
+
+outputs/reports/*
+!outputs/reports/.gitkeep
+
+# Ignore loose heavy 3D assets or archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.mp4
+*.avi
+
+# ==============================================================================
+# Logs & Temporary Files
+# ==============================================================================
+*.log
+*.tmp
+temp/
+tmp/
