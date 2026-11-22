@@ -1,0 +1,13 @@
+{
+  "stage": "Stage 4 Sparse Bundle Adjustment and Global Reconstruction Refinement",
+  "timestamp": "2026-11-22T14:17:17Z",
+  "coordinate_convention": "X_cam = R @ X_world + t, C = -R.T @ t",
+  "origin_reference": "im_0010 (R=I, t=0)",
+  "scale_reference": "im_0010 vs im_0011 baseline = 1.0",
+  "gauge_strategy": "fixed_seed_pair",
+  "solver": "scipy.optimize.least_squares (method='trf', loss='huber', f_scale=2.0)",
+  "total_cameras": 72,
+  "total_points": 38541,
+  "total_observations": 104157,
+  "outlier_count": 275
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "THU-MVS Dog_RGB",
+  "num_registered_cameras": 72,
+  "num_sparse_points": 38541,
+  "num_observations": 104157,
+  "mean_observations_per_point": 2.7,
+  "loop_closure_tracks_count": 57,
+  "loop_closure_points_count": 24,
+  "rejection_count": 0
+}

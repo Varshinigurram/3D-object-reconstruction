@@ -1,0 +1,50 @@
+{
+  "image_id": "im_0010",
+  "registration_order": 1,
+  "status": "REGISTERED",
+  "num_correspondences": 1247,
+  "inlier_count": 1247,
+  "inlier_ratio": 1.0,
+  "reproj_mean_px": 0.0,
+  "reproj_median_px": 0.0,
+  "reproj_90th_px": 0.0,
+  "reproj_95th_px": 0.0,
+  "reproj_max_px": 0.0,
+  "spatial_coverage_ratio": 0.85,
+  "positive_depth_ratio": 1.0,
+  "rotation_angle_deg": 0.0,
+  "center_x": 0.0,
+  "center_y": 0.0,
+  "center_z": 0.0,
+  "t_x": 0.0,
+  "t_y": 0.0,
+  "t_z": 0.0,
+  "rejection_reason": "PRIMARY_SEED_ORIGIN",
+  "R_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "t_vector": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "camera_center": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

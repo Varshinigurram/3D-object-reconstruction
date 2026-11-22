@@ -1,0 +1,27 @@
+{
+  "status": 3,
+  "success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "nfev": 2,
+  "nit": 2,
+  "runtime_sec": 4.31,
+  "initial_cost": 377684.5332704962,
+  "final_cost": 377625.102196015,
+  "reprojection_improvement_pct": 0.02,
+  "initial_errors_px": {
+    "mean": 0.4029658591779371,
+    "median": 0.18157702017267657,
+    "p90": 0.8725861637890144,
+    "p95": 1.3472884376022454,
+    "max": 543.6891749068382
+  },
+  "final_errors_px": {
+    "mean": 0.4029051104478141,
+    "median": 0.1805808534298931,
+    "p90": 0.8733260701133064,
+    "p95": 1.3476003090219675,
+    "max": 543.695995783407
+  },
+  "initial_loop_closure_gap": 3.3236,
+  "final_loop_closure_gap": 3.3235
+}

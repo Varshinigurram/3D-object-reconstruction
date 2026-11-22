@@ -1,0 +1,50 @@
+{
+  "image_id": "im_0057",
+  "registration_order": 57,
+  "status": "REGISTERED",
+  "num_correspondences": 553,
+  "inlier_count": 523,
+  "inlier_ratio": 0.9458,
+  "reproj_mean_px": 0.8558,
+  "reproj_median_px": 0.6784,
+  "reproj_90th_px": 1.7055,
+  "reproj_95th_px": 2.0274,
+  "reproj_max_px": 3.1541,
+  "spatial_coverage_ratio": 0.3333,
+  "positive_depth_ratio": 1.0,
+  "rotation_angle_deg": 98.799,
+  "center_x": -5.072841,
+  "center_y": -3.756586,
+  "center_z": 6.317909,
+  "t_x": 6.291033,
+  "t_y": -1.298377,
+  "t_z": 6.204737,
+  "rejection_reason": "PASSED",
+  "R_matrix": [
+    [
+      -0.09647272463137149,
+      0.15011275177285333,
+      -0.983950799154806
+    ],
+    [
+      -0.6078069425014146,
+      0.7739538731190037,
+      0.17766857609373413
+    ],
+    [
+      0.788202850825396,
+      0.6151922984232449,
+      0.016574133806738695
+    ]
+  ],
+  "t_vector": [
+    6.291032740528051,
+    -1.298377116257375,
+    6.204736697322388
+  ],
+  "camera_center": [
+    -5.072840709472752,
+    -3.756586468214115,
+    6.317909369772758
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "THU-MVS Dog_RGB",
+  "num_registered_cameras": 72,
+  "num_optimized_cameras": 70,
+  "num_sparse_points": 38541,
+  "num_observations": 104157,
+  "gauge_strategy": "fixed_seed_pair",
+  "optimizer_status": "`xtol` termination condition is satisfied.",
+  "reprojection_error_mean_px": 0.4029051104478141,
+  "reprojection_error_median_px": 0.1805808534298931,
+  "reprojection_error_p90_px": 0.8733260701133064,
+  "reprojection_error_p95_px": 1.3476003090219675,
+  "reprojection_error_max_px": 543.695995783407,
+  "loop_closure_gap_units": 3.3235,
+  "optimization_runtime_sec": 4.31
+}
